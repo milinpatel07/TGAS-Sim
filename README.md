@@ -23,7 +23,7 @@ This repository is based on **published research work**:
 5. **Execute `plotResults.m`** to visualize simulation results.
 
 ## Repository Structure
-📂 Simulink-Files/ → MATLAB & Simulink models
+📂 Simulink-Files/ → MATLAB & Simulink models \\
 📂 Results/ → Pre-generated simulation results
 📂 Publications/ → Research papers based on this work
 📂 Documentation/ → Explanations on TGAS, lane-change planning, and control
