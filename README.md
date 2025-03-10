@@ -62,17 +62,18 @@ To **run the TGAS simulation**, follow these steps:
 ## Snapshots of the Model, Scenario & Results
 Below are images representing **the scenario, approach, and results**:
 
-### **1️⃣ Scenario Overview**
-![Scenario Snapshot](image.png)
+### **1️⃣ Driving Scenario Overview**
+![image](https://github.com/user-attachments/assets/d4a61796-72cc-4331-bd64-6f30b4a3ea6e)
 
-### **2️⃣ Simulink Model**
-![Simulink Model](image.png)
 
 ### **3️⃣ Approach - Trajectory Planning & Control**
-![Approach](image.png)
+![behaviour planner](https://github.com/user-attachments/assets/309da0c1-4375-4640-b852-0d9e7b6fd0d7)
 
 ### **4️⃣ Results - Lane Change Maneuver**
-![Results](image.png)
+![all phases acceleration](https://github.com/user-attachments/assets/ac5820bc-6994-42d7-b881-fb4e60126a2d)
+![velocity](https://github.com/user-attachments/assets/b566043c-b1af-44b7-bcca-711a4fede80a)
+![Optimized trajectory](https://github.com/user-attachments/assets/43b4ba31-f281-4550-bb01-4a6688ce1dd3)
+
 
 ## How to Contribute
 We welcome contributions from researchers and engineers! Please check **CONTRIBUTING.md** for guidelines.
