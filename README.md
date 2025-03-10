@@ -6,8 +6,8 @@
 This repository provides:
 - **Simulink models & MATLAB scripts** for TGAS simulation.
 - **Predefined highway scenarios** for validation.
-- **Bird’s Eye View & simulation results** for performance analysis.
-- **Published research papers & documentation** related to TGAS.
+- **Graphical representations of scenarios, model design, and results**.
+- **Published research papers (linked) related to TGAS**.
 
 ## Research Significance
 This repository is based on **published research work** and is a result of my **Master’s Thesis research**, which successfully led to two conference publications. I created this repository to **support and help others working in or interested in TGAS, trajectory planning, and autonomous vehicle safety**. 
@@ -33,22 +33,12 @@ I welcome **suggestions, discussions, and contributions** from the community. I 
 │   ├── scenario.mat  # Predefined simulation scenario  
 │  
 ├── 📂 Results-and-Media/  # Pre-generated results & analysis  
-│   ├── Simulation-Visualizations/  # Screenshots, Bird’s Eye View, etc.  
-│   ├── Data-Logs/  # MATLAB logs & tracking data  
+│   ├── lane_change_simulation.mp4  # Video of highway lane change  
+│   ├── TGAS_sim_demo.mp4  # Overview of TGAS in Simulink  
+│   ├── scenario_visual.png  # Graphical representation of scenario  
+│   ├── model_design.png  # Graphical representation of model design  
+│   ├── simulation_results.png  # Graphs and plots of results  
 │  
-├── 📂 Publications/  # Research papers related to the project  
-│   ├── Thesis-Paper.pdf  # Your Master’s thesis  
-│   ├── Conference-Paper-1.pdf  # ICECCME paper  
-│   ├── Conference-Paper-2.pdf  # HORA paper  
-│  
-├── 📂 Documentation/  # Explanations & technical insights  
-│   ├── TGAS-Overview.md  # Introduction to TGAS  
-│   ├── Highway-Scenario.md  # Lane change planning & methodology  
-│   ├── Controller-Design.md  # Model Predictive Control (MPC) strategy  
-│  
-└── 📂 Videos/  # Optional - Demo videos of the simulations  
-    ├── lane_change_simulation.mp4  # Video of highway lane change  
-    ├── TGAS_sim_demo.mp4  # Overview of TGAS in Simulink  
 ```
 
 ## Running the Simulation
