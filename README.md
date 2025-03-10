@@ -3,8 +3,9 @@
 ## Overview
 This repository is dedicated to the simulation-based verification and validation of transverse guidance assist systems for highly automated driving functions. It includes essential MATLAB/Simulink models, scenario files, and links to relevant academic publications.
 
-## Thesis Abstract
-[Here, summarize the key points of your thesis, focusing on objectives, methods, results, and conclusions.]
+## Thesis
+The thesis associated with this repository explores simulation based approach for verifying and validating the functionality and safety of automated driving systems. The full thesis can be accessed via this DOI:
+- [10.13140/RG.2.2.21734.74567](https://doi.org/10.13140/RG.2.2.21734.74567)
 
 ## Publications
 This research has contributed to the following publications:
