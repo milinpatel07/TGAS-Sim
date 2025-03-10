@@ -7,7 +7,7 @@ We appreciate contributions from the community! If you'd like to contribute to *
 - Click the **Fork** button at the top right of the repository page.
 - Clone the forked repository to your local machine:
   ```sh
-  git clone https://github.com/your-username/TGAS-Sim.git
+  git clone https://github.com/milinpatel07/TGAS-Sim.git
   ```
 - Navigate into the repository:
   ```sh
