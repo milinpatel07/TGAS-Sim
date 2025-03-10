@@ -1,40 +1,37 @@
-# TransverseGuidance-HAD
+# TGAS-Sim: Simulation-Based Validation of Transverse Guidance Assist System (TGAS)
 
 ## Overview
-This repository is dedicated to the simulation-based verification and validation of transverse guidance assist systems for highly automated driving functions. It includes essential MATLAB/Simulink models, scenario files, and links to relevant academic publications.
+**TGAS-Sim** is an open-source repository containing **MATLAB Simulink models, simulation scenarios, and analysis results** for the **Transverse Guidance Assist System (TGAS) applicable to Highly Automated Driving (HAD)**. This project demonstrates **highway lane-change maneuvers using a Model Predictive Control (MPC)-based approach**.
 
-## Thesis
-The thesis associated with this repository explores simulation based approach for verifying and validating the functionality and safety of automated driving systems. The full thesis can be accessed via this DOI:
-- [10.13140/RG.2.2.21734.74567](https://doi.org/10.13140/RG.2.2.21734.74567)
+The repository includes:
+- **Simulink models & MATLAB scripts** for TGAS simulation.
+- **Predefined scenarios** for trajectory planning & validation.
+- **Bird’s Eye View & simulation results** for analysis.
+- **Published research papers** based on this simulation.
 
-## Publications
-This research has contributed to the following publications:
-1. **Simulation-based Analysis Of Highway Trajectory Planning Using High-Order Polynomial For Highly Automated Driving Function**
-   - **Conference:** ICECCME 2021
-   - **DOI:** [10.1109/iceccme52200.2021.9591044](https://doi.org/10.1109/iceccme52200.2021.9591044)
-2. **A simulation-based analysis for a transverse guidance for highly automated driving functions**
-   - **Conference:** HORA 2021
-   - **DOI:** [10.1109/hora52670.2021.9461313](https://doi.org/10.1109/hora52670.2021.9461313)
+## Research Papers
+This repository is based on **published research work**:
+1. **Master’s Thesis**: *Simulation-Based Verification and Validation of TGAS for HAD* ([DOI](https://doi.org/10.13140/RG.2.2.21734.74567))
+2. **Conference Paper 1**: *Simulation-Based Analysis Of Highway Trajectory Planning* ([DOI](https://doi.org/10.1109/iceccme52200.2021.9591044))
+3. **Conference Paper 2**: *A Simulation-Based Analysis for Transverse Guidance* ([DOI](https://doi.org/10.1109/hora52670.2021.9461313))
 
-## Repository Contents
-### MATLAB/Simulink Models
-- **Highway Trajectory Planning Model:** Detailed description and usage instructions.
-- **Transverse Guidance Model:** Explanation and application guide.
+## Installation & Running Simulations
+1. **Open MATLAB & Simulink**.
+2. **Run `instructions.mlx`** to load the model & scenario.
+3. **Open Simulink model** and go to the **Bird's Eye Scope**.
+4. Click **Find Signals** and **Run Simulation**.
+5. **Execute `plotResults.m`** to visualize simulation results.
 
-### Scenarios
-Detailed descriptions of each scenario file, including their applications and how they integrate with the models.
+## Repository Structure
+📂 Simulink-Files/ → MATLAB & Simulink models
+📂 Results/ → Pre-generated simulation results
+📂 Publications/ → Research papers based on this work
+📂 Documentation/ → Explanations on TGAS, lane-change planning, and control
+📂 Videos/ → Optional simulation demonstration videos
 
-## Usage
-Instructions on how to set up and run the simulations, including any required software or environment setups.
-
-## Contributing
-Guidelines for how to contribute to this repository, including coding standards, pull request procedures, and other policies.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is **licensed under Apache 2.0**. See **LICENSE** for details.
 
-## Contact
-For further inquiries or potential collaborations, please contact [Your Email].
-
-## Acknowledgements
-Acknowledgements to contributors, institutions, or any funding sources.
+## Contact & Discussion
+If you have any questions or ideas, open a **GitHub Issue** or start a **Discussion**.
