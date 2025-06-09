@@ -74,9 +74,8 @@ classdef HelperTrajectoryGenerator < matlab.System ...
         %   by the Global plan and deviation block.
         DeviationValue
         
-        %CartiationAcceleration CartiationAcceleration stores the
-        %acceleration of the vehicle.
-        CartiationAcceleration
+        %CartesianAcceleration Cartesian acceleration of the vehicle.
+        CartesianAcceleration
     end
     
     properties(Constant)
@@ -177,7 +176,7 @@ classdef HelperTrajectoryGenerator < matlab.System ...
             obj.PreviousTime = 0;
             
             % Initializing the Cartesian acceleration variable
-            obj.CartiationAcceleration = 0;
+            obj.CartesianAcceleration = 0;
             
             % Initializing the TrajectoryIdx variable
             obj.TrajectoryIdx = 0;
@@ -468,7 +467,7 @@ classdef HelperTrajectoryGenerator < matlab.System ...
             %UpdateCurrCurvAcc This updates acceleration from the trajectory.
             Dist2Traj = vecnorm(obj.Trajectory(:,1:2) - repmat(EgoActorPoses.Position(1:2),numTrajPoints,1),2,2);
             [~,MinIdxTraj] = min(Dist2Traj,[],1);
-            obj.CartiationAcceleration = obj.Trajectory(MinIdxTraj,6);
+            obj.CartesianAcceleration = obj.Trajectory(MinIdxTraj,6);
         end
         
         %------------------------------------------------------------------
@@ -484,7 +483,7 @@ classdef HelperTrajectoryGenerator < matlab.System ...
             end
             % Update waypoints
             if getCurrentTime(obj)>0 % after first planning cycle trajectory does exist
-                Cart_Acc  = obj.CartiationAcceleration;
+                Cart_Acc  = obj.CartesianAcceleration;
                 
                 % Get the Cartesian states from RefPointOnPath               
                 CartStates = [RefPointOnPath.RefPoseRr(1:2) RefPointOnPath.RefPoseRr(3)/180*pi RefPointOnPath.RefCurvature RefPointOnPath.RefVelocity Cart_Acc];
