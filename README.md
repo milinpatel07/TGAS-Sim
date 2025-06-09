@@ -26,7 +26,7 @@ I welcome **suggestions, discussions, and contributions** from the community. I 
 │── 📜 CONTRIBUTING.md  # How to contribute  
 │── 📜 CODE_OF_CONDUCT.md  # Community guidelines  
 │  
-├── 📂 Simulink-Files/  # MATLAB & Simulink simulation models  
+├── 📂 Simulink files/  # MATLAB & Simulink simulation models
 │   ├── instructions.mlx  # Live script to open & load scenario  
 │   ├── main_model.slx  # Simulink model file  
 │   ├── plotResults.m  # MATLAB script for visualization  
